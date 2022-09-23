@@ -19,6 +19,7 @@ public class HabitacionEntity {
     private Integer capacidad;
     private Integer camas;
     private Integer baños;
+    private Long id;
     
     @PodamExclude
     @ManyToOne

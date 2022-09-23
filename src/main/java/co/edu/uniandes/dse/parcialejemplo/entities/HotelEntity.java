@@ -19,7 +19,7 @@ import uk.co.jemos.podam.common.PodamExclude;
 @Entity
 public class HotelEntity extends BaseEntity{
     private String nombre;
-    private String numEstrellas;
+    private Integer numEstrellas;
     private String direccion;
     @PodamExclude        
     @OneToMany(mappedBy = "hotel")
